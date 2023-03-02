@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul.d-flex.justify-content-evenly.nav-bar{
+    list-style: none;
+    background-color: bisque;
+    padding: 2%;
+    text-decoration: none;
+}
+.nav-bar a{
+    text-decoration: none;
+}
+.footer-central{
+    background-color: #ffebbb;
+}
+.footer-central h5{
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+}

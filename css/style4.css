@@ -1,0 +1,192 @@
+*{
+    margin-right: 2%;
+    margin-left: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../fonts/raleway/static/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+}
+.onceYouArrive{
+    background-color: white;
+}
+.usefulTips{
+  font-family: "Raleway", sans-serif;
+  color: #681a1e;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+.title{
+  font-family: "Raleway", sans-serif;
+  color: #681a1e;
+  font-size: 26px;
+  font-weight: 400;
+}
+ul{
+  list-style: none;
+}
+
+ul li a{
+  text-decoration: none;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+}
+ul li a:hover{
+  color: blue;
+}
+.textStyle{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+button.btn.btn-primary{
+  color: white;
+  background-color: #857671;
+  border: 1px solid pink;
+}
+.banks li a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+.laundry li a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+button{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 12px;
+    background-color: orange;
+    border: 1px solid orange;
+  }
+  .exchangeMoneyHouse img{
+    transition: all 1.3s ease;
+  }
+  .exchangeMoneyHouse:hover img{
+    transform:scale(1.2);
+  }
+  .exchangeMoneyMap img{
+    transition: all 1.3s ease;
+  }
+  .exchangeMoneyMap:hover img{
+    transform: scale(1.2);
+  }
+  .mapchangeMoney img{
+    transition: all 1.3s ease;
+  }
+  .mapchangeMoney:hover img{
+    transform: scale(1.2);
+  }
+  .scotiabankSanFelipeStore img{
+    transition: all 1.3s ease;
+  }
+  .scotiabankSanFelipeStore:hover img{
+    transform:scale(1.2);
+  }
+  .parqueHuamachucoEditado img{
+    transition: all 1.3s ease;
+  }
+  .parqueHuamachucoEditado:hover img{
+    transform: scale(1.8);
+  }
+  .areaToRunEditada img{
+    transition: all 1.3s ease;
+  }
+  .areaToRunEditada:hover img{
+    transform: scale(1.8);
+  }
+  .salaverryAvenue img{
+    transition: all 1.3s ease;
+  }
+  .salaverryAvenue:hover img{
+    transform: scale(1.6);
+  }
+  .parqueDeLaPera img{
+    transition: all 1.3s ease;
+  }
+  .parqueDeLaPera:hover img{
+    transform: scale(1.6);
+  }
+  .homepage{
+    text-align: center;
+  }
+  h1#usefulTips.text-center.pt-3.usefulTips{
+    text-align: center;
+    background-color: bisque;
+    padding: 3%;
+  }
+  .textStyle{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+   /*----------------------------------------------------------------
+    RESPONSIVE*--------------------------------------------------*/
+    @media(max-width: 414px){
+      header h1#usefulTips{
+        font-size: 1.4rem;
+        text-align: center;
+      } 
+      header h2.title.factsImportant{
+        font-size: 1.2rem;
+      } 
+      header ul.textStyle{
+        padding-left: 0px;
+      }
+    
+      h2#peruChip.title{
+      font-size: 1.2rem;
+        }
+        .peruvianChip-images figure .text-center img{
+       width: 200px;
+        }
+        h2.title{
+          font-size: 1.2rem;
+          text-align: center;
+        }
+        h4.title{
+          font-size: 1.2rem;
+          text-align: center;
+        }
+        li.laundry.textStyle{
+          padding-bottom: 6px;
+        }
+        ul.kn95 {
+          list-style-type: circle;
+        }
+    }
+    @media(max-width:800px){
+      ul.kn95 {
+        list-style-type: circle;
+      }
+    }
+    @media(max-width:1024px){
+      div.mercadosTradicionales img{
+        width: 180px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      ul.kn95 {
+        list-style-type: circle;
+      }
+    }
+    @media(max-width:2560px){
+      ul.kn95 {
+        list-style-type: circle;
+      }
+    }

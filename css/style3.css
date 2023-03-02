@@ -1,0 +1,112 @@
+*{
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/raleway/static/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+}
+.inCaseYouNeed{
+background-color: white;
+margin-left: 2%;
+margin-right: 2%;
+padding-left: 2%;
+padding-right: 2%;
+}
+.needPlaces{
+    font-family: "Raleway", sans-serif;
+    color: #681a1e;
+    font-size: 30px;
+    font-weight: 400;
+}
+.title{
+    font-family: "Raleway", sans-serif;
+    color: #681a1e;
+    font-size: 26px;
+    font-weight: 400;
+}
+.textStyle {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+}  
+ul{
+    list-style: none;
+}
+button{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 12px;
+    background-color: orange;
+    border: 1px solid orange;
+}
+ul li a{
+    text-decoration:none;
+    list-style: none;
+    color: black;
+}
+ul li a:hover{
+    color: blue;
+}
+button.btn.btn-primary{
+    color: white;
+    background-color: #857671;
+    border: 1px solid pink;
+}
+ section.homepage.pt-2.pb-0.pt-3.textStyle{
+    text-align: center;
+}
+h1#inCaseYouNeed.text-center.pt-3.pb-2.needPlaces{
+    background-color: bisque;
+    padding: 3%;
+}
+/*----------------------------------------------------------------
+    RESPONSIVE*--------------------------------------------------*/
+    @media(max-width: 414px){
+        header h1#inCaseYouNeed{
+            font-size: 1.4rem;
+            text-align: center;
+        } 
+        header h2.title{
+            font-size: 1.2rem;
+        }
+        h2#nearestHospital{
+            font-size: 1.2rem;
+        }
+        h2#closestHospitals.title{
+            font-size: 1.2rem;
+        }
+        h2#migrations.title{
+            font-size: 1.2rem;
+        }
+        h2#police.title{
+            font-size: 1.2rem;
+        }
+        h2#robberies.title{
+            font-size: 1.2rem;
+        }
+        h2#bankAccount.title{
+            font-size: 1.2rem;
+        }
+    }
+    @media(max-width:800px){
+        div.imagesBanks img{
+            width: 250px;
+        }
+    }
+    @media(max-width:2480px){
+        h1#inCaseYouNeed.text-center.pt-3.pb-2.needPlaces{
+            background-color: bisque;
+            padding: 3%;
+            text-align: center;
+        }
+    }
